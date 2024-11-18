@@ -93,19 +93,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
 	    <repository>
 	      <id>nexusRepo</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://13.235.83.98:8081/repository/flipkar-release/</url>
 	    </repository>
-	    
 	    <snapshotRepository>
 	      <id>nexusRepo</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://13.235.83.98:8081/repository/flipkar-snapshot/<url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
