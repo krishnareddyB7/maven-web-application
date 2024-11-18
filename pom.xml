@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.235.83.98:9000/</sonar.host.url>
-		<sonar.login>squ_1b6da74b604504011740e269dc283a652e534167</sonar.login>
+		<sonar.host.url>http://192.168.33.10:9000/</sonar.host.url>
+		<sonar.login>squ_e85aa961f9d3df0780558c050cf31149821cc879</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -93,16 +93,19 @@
 	</dependencies>
 	
 	<distributionManagement>
+	
 	    <repository>
-	      <id>nexusRepo</id>
+	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.83.98:8081/repository/flipkar-release/</url>
+	      <url>http://172.31.3.243:9980/mithuntechnologies/repository/canarabank-releases/</url>
 	    </repository>
+	    
 	    <snapshotRepository>
-	      <id>nexusRepo</id>
+	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.83.98:8081/repository/flipkar-snapshot/<url>
+	      <url>http://172.31.3.243:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
 	    </snapshotRepository>
+	    
 	</distributionManagement>
 	
 	<build>
